@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> Desafio 3 </title>
+</head>
+<body>
+    <header>
+        <h2> Gerenciamento de filmes </h2>
+        <hr>
+    </header>
+    <script>
+        let filme = {
+            titulo: "A origem dos guardiões",
+            lancamento: "2012",
+            diretor: "Peter Ramsey",
+            genero: "Aventura",
+            elenco:{
+                perso1:{
+                    nome: "Jack Frost",
+                    interpretador: "Chris Pine"
+                },
+                perso2:{
+                    nome: "Pitch Black",
+                    interpretadora: "Jude Law"
+                },
+                perso3:{
+                    nome: "Norte",
+                    interpretadora: "Alec Baldwin"
+                }
+            }
+        }
+        console.log("Nome do filme: " + filme.titulo) 
+        console.log("Lançamento: " + filme.lancamento)
+        console.log("Diretor: " + filme.diretor)
+        console.log("Gênero: " + filme.genero)
+        console.log("Personagem principal: " + filme.elenco.perso1.nome)
+    </script>
+</body>
+</html>
